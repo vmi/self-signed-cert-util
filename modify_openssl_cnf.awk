@@ -61,6 +61,9 @@ function append_entry(sec) {
 function append_section() {
     print ""
     print "[ private_ca ]"
+    print "subjectKeyIdentifier = hash"
+    print "authorityKeyIdentifier = keyid:always,issuer"
+    print "basicConstraints = critical,CA:true"
     print "nameConstraints = critical,permitted;" constraints
 }
 

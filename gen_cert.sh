@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# cf. https://qiita.com/nis_nagaid_1984/items/b8f87d41ea108d47af61
+#     https://qiita.com/3244/items/8c7e6892efdb4e500be9
+
 set -eu
 
 help() {
